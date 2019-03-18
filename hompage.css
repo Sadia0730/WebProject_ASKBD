@@ -1,0 +1,300 @@
+.bgimg{
+	background-image: url('back.jpg');
+	background-attachment: fixed;
+	background-size:100% 100%;
+	width: 100%;
+	height: 680px;
+}
+.hearderset{
+	padding-top: 190px;
+	box-sizing: border-box;
+
+}
+.hearderset h2{
+	font-size: 42px;
+}
+.hearderset h1{
+	font-size: 72px;
+	font-weight: bold;
+}
+/*...................................our goals...............................*/
+.ourservices{
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+.ourservices h1
+{
+	font-size: 50px;
+	font-weight: bold;
+}
+.rowsetting{
+	margin: 80px 0px;
+}
+.imgsetting
+{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.fa-link
+{
+	margin-top: 25px
+}
+.fa-cog
+{
+	margin-top: 25px
+}
+.fa-users
+{
+	margin-top: 25px
+}
+.fa-comments
+{
+	margin-top: 25px
+}
+.rowsetting p
+{
+	padding: 10px;
+	color: #6c757d;
+}
+.rowsetting h2
+{
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+/*..........................Info.........................*/
+.info
+{
+	box-sizing: border-box;
+	margin-top: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 50px 15px;
+
+}
+/*..........................ourteam.......................*/
+.ourteam
+{
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+.ourteam h1
+{
+	font-size: 50px;
+	font-weight: bold;
+}
+.teamsetting
+{
+	margin-top: 70px;
+}
+
+/*..........................footer.......................*/
+.footer{
+	height: 50px;
+}
+.footer h6{
+	line-height: 50px;
+}
+/*..........................media.......................*/
+
+@media(min-width: 768px) and (max-width:991px )
+{
+		.hearderset h2{
+				font-size: 42px;
+		}
+		.hearderset h1{
+				font-size: 62px;
+				font-weight: bold;
+		}
+		.ourservices{
+				height: 800px;
+				margin: 100px 0px;
+				font-size: 
+		}
+	.info
+		{
+			height: 700px;
+		
+			margin:50px 8px;
+			padding:0px 0px;
+			font-size: 15px;
+			
+
+
+		}
+		.info img
+		{
+			width:350px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			
+		}
+		.ourteam
+		{
+			height: 800px;
+			margin: 100px 0px;
+		}
+		.rowsetting{
+			margin: 50px 0px;
+		}
+		.imgsetting
+		{
+			border-radius: 50%;
+			height: 70px;
+			width: 70px;
+		}
+		.fa-link
+		{
+			margin-top: 15px
+		}
+		.fa-cog
+		{
+			margin-top: 15px
+		}
+		.fa-users
+		{
+			margin-top: 15px
+		}
+		.fa-comments
+		{
+			margin-top: 15px
+		}
+		.rowsetting p
+		{
+			padding: 7px;
+		}
+		.rowsetting h2
+		{
+			margin-top: 17px;
+			font-size: 20px;
+			font-weight: bold;
+		}	
+}
+@media(max-width:767px)
+{
+	.ourservices{
+				height: 1200px;
+				margin: 100px 0px;
+		}
+		.rowsetting{
+			margin: 50px 0px;
+		}
+		.imgsetting
+		{
+			border-radius: 50%;
+			height: 80px;
+			width: 80px;
+		}
+		.fa-link
+		{
+			margin-top: 15px
+		}
+		.fa-cog
+		{
+			margin-top: 15px
+		}
+		.fa-users
+		{
+			margin-top: 15px
+		}
+		.fa-comments
+		{
+			margin-top: 15px
+		}
+		.rowsetting p
+		{
+			padding: 7px;
+		}
+		.rowsetting h2
+		{
+			margin-top: 17px;
+			font-size: 25px;
+			font-weight: bold;
+		}	
+	.info
+		{
+			height: 1000px;
+			margin:100px 5px;
+			padding:0px 0px;
+			font-size: 15px;
+			
+
+
+		}
+		.info img
+		{
+			width:350px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			
+		}
+		.ourteam
+		{
+			height: 1200px;
+			margin: 100px 0px;
+		}	
+}
+@media(max-width:574)
+{
+		.ourservices{
+				height: 1500px;
+				margin: 100px 0px;
+		}
+			.info
+		{
+			height: 1200px;
+		
+			margin:100px 0px;
+			padding:0px 0px;
+			font-size: 15px;
+
+
+		}
+		.info img
+		{
+			width:300px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			
+		}
+	
+}
+@media(max-width:479px )
+{
+		.hearderset h2{
+				font-size: 22px;
+		}
+		.hearderset h1{
+				font-size: 42px;
+				font-weight: bold;
+		}
+		.ourservices{
+				height: 1300px;
+		}	
+		.ourteam
+		{
+				height: 1200px;
+	
+		}
+		.info
+		{
+			height: 1200px;
+			
+			margin:100px 0px;
+			padding:0px 0px;
+			font-size: 13px;
+
+
+		}
+		.info img
+		{
+			width:300px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			
+		}
+
+}
+
